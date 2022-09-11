@@ -1,7 +1,11 @@
 centering_elements('.animation_box','h1')
 function gettin_screen_values(){
 var screen_width=$(window).width();
-  if (screen_width<=991){document.querySelector('body').style.textAlign='-webkit-center'}
+  if (screen_width<=991){
+    $('.card').css('width','60%')
+
+  $('.card').css('margin','20px')
+    document.querySelector('body').style.textAlign='-webkit-center'}
 
 var screen_height=$(window).height();
 var x_origin = screen_width/2;
