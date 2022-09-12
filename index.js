@@ -1,20 +1,22 @@
 centering_elements('.animation_box','h1')
 function gettin_screen_values(){
 var screen_width=$(window).width();
+var screen_height=$(window).height();
+
 if (screen_width<=991){
   document.querySelector('.card_show').remove();
   $('.card').css('width','70%')
 
   $('.card').css('margin','20px')
-  document.querySelector('body').style.textAlign='-webkit-center';}
-  else{  document.querySelector('.slideshow').remove();}
-
-var screen_height=$(window).height();
+  document.querySelector('body').style.textAlign='-webkit-center';
 top_container_height=document.querySelector('.top-container').offsetHeight
 last_container_height=document.querySelector('.last-container').offsetHeight
 remaining_height=screen_height-(top_container_height+last_container_height)
 document.querySelector('.middle-container').style.height=remaining_height+'px';
-centering_elements('.middle-container','#carouselExampleControls')
+centering_elements('.middle-container','#carouselExampleControls')}
+  else{  document.querySelector('.slideshow').remove();}
+
+
 var x_origin = screen_width/2;
 var y_origin = screen_height/2;
 return[screen_width,x_origin,screen_height,y_origin]}
