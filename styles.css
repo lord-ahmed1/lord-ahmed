@@ -13,3 +13,5 @@ h2{padding: 0 ; margin: 0}
 .top-container , .last-container {background-color: #25316D;margin:0; }
 .top-container , .last-container , .middle-container,nav{padding: 2%;}
 h5,p{color:#25316D; }
+p{font-size: 110%}
+.card-img-top{height: 20rem ; width: 100%;}
