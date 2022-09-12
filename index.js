@@ -2,7 +2,7 @@ centering_elements('.animation_box','h1')
 function gettin_screen_values(){
 var screen_width=$(window).width();
   if (screen_width<=991){
-    $('.card').css('width','60%')
+    $('.card').css('width','50%')
 
   $('.card').css('margin','20px')
     document.querySelector('body').style.textAlign='-webkit-center'}
