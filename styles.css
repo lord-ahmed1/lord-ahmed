@@ -1,0 +1,18 @@
+
+.top-container{width: 100% ; height: 30rem; }
+.animation_box{height: 18rem ; width: 18rem; background-color: #5F6F94;padding: 0;border-radius: 10%; }
+h1{position:absolute;text-align: center; margin: 0;padding: 0;}
+.text{color: #FBDF07;}
+.my_pic{border-radius: 50% ; width: 20rem ;display:inline-block;border-style:groove;border-width: 10px;}
+/* background-color: #25316D; */
+hr{border-top-width: 20px;border-color: red;border-style: dotted;width: 100px;background-color:white;margin:1% auto;}
+.slide_show{ height: 10rem;text-align: center;}
+ul{padding: 0 ;margin:1% 0 ; }
+h2{padding: 0 ; margin: 0 ; color:  #25316D}
+.middle-container{margin-left: auto;}
+.top-container , .last-container {background-color: #25316D;margin:0; }
+.top-container , .last-container , .middle-container,nav{padding: 2%;}
+h5,p{color:#25316D; }
+p{font-size: 120%}
+.card-img-top{height:20rem ; width: 30rem ; margin: auto;}
+.carousel-control-prev-icon,.carousel-control-next-icon{background-color:#5F6F94;}
